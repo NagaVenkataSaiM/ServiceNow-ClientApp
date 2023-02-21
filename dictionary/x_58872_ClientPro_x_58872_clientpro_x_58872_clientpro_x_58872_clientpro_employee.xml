@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="EmployeeProjects" max_length="40" name="x_58872_ClientPro_x_58872_clientpro_x_58872_clientpro_x_58872_clientpro_employee" sizeclass="0" type="collection">
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Time spent" mandatory="true" max_length="40" name="u_float_5" type="float"/>
+        <element attributes="edge_encryption_enabled=true" label="End Date" max_length="40" name="u_glide_date_7" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Start Date" mandatory="true" max_length="40" name="u_glide_date_time_6" type="glide_date_time"/>
+        <element attributes="encode_utf8=false" label="Allocated to" mandatory="true" max_length="32" name="u_reference_1" reference="x_58872_ClientPro_x_58872_clientpro_x_58872_clientpro_x_58872_clientpro_data_emp" type="reference"/>
+        <element attributes="encode_utf8=false" label="Manager" mandatory="true" max_length="32" name="u_reference_4" reference="x_58872_ClientPro_x_58872_clientpro_x_58872_clientpro_x_58872_clientpro_data_emp" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Project Name" mandatory="true" max_length="40" name="u_string_1" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Project data" mandatory="true" max_length="40" name="u_string_2" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Non-Project work Details" max_length="40" name="u_string_3" type="string"/>
+        <index name="index">
+            <element name="u_reference_4"/>
+        </index>
+        <index name="index2">
+            <element name="u_reference_1"/>
+        </index>
+    </element>
+</database>

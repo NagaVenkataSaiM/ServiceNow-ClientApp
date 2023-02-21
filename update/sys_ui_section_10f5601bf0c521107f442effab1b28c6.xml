@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="10f5601bf0c521107f442effab1b28c6" sys_domain="global" table="x_58872_ClientPro_x_58872_clientpro_x_58872_clientpro_x_58872_clientpro_data_emp" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-02-21 10:17:10</sys_created_on>
+            <sys_id>bb96285bf0c521107f442effab1b285d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_58872_ClientPro_x_58872_clientpro_x_58872_clientpro_x_58872_clientpro_data_emp" sys_domain="global" view="Default view">10f5601bf0c521107f442effab1b28c6</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-02-21 10:17:10</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_string_1</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-02-21 10:17:10</sys_created_on>
+            <sys_id>3f96285bf0c521107f442effab1b285d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_58872_ClientPro_x_58872_clientpro_x_58872_clientpro_x_58872_clientpro_data_emp" sys_domain="global" view="Default view">10f5601bf0c521107f442effab1b28c6</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-02-21 10:17:10</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_glide_date_2</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-02-21 10:17:10</sys_created_on>
+            <sys_id>bf96285bf0c521107f442effab1b285d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_58872_ClientPro_x_58872_clientpro_x_58872_clientpro_x_58872_clientpro_data_emp" sys_domain="global" view="Default view">10f5601bf0c521107f442effab1b28c6</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-02-21 10:17:10</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_choice_3</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-02-21 10:17:10</sys_created_on>
+            <sys_id>3396285bf0c521107f442effab1b285e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_58872_ClientPro_x_58872_clientpro_x_58872_clientpro_x_58872_clientpro_data_emp" sys_domain="global" view="Default view">10f5601bf0c521107f442effab1b28c6</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-02-21 10:17:10</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_string_4</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-02-21 10:17:10</sys_created_on>
+            <sys_id>b396285bf0c521107f442effab1b285e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_58872_ClientPro_x_58872_clientpro_x_58872_clientpro_x_58872_clientpro_data_emp" sys_domain="global" view="Default view">10f5601bf0c521107f442effab1b28c6</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-02-21 10:17:10</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_58872_ClientPro_x_58872_clientpro_x_58872_clientpro_x_58872_clientpro_data_emp</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-02-21 10:14:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>10f5601bf0c521107f442effab1b28c6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_58872_ClientPro_x_58872_clientpro_x_58872_clientpro_x_58872_clientpro_data_emp</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="ClientPro" source="x_58872_ClientPro">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="ClientPro">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+            <sys_update_name>sys_ui_section_10f5601bf0c521107f442effab1b28c6</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-02-21 10:14:11</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="DataEmployee" max_length="40" name="x_58872_ClientPro_x_58872_clientpro_x_58872_clientpro_x_58872_clientpro_data_emp" sizeclass="0" type="collection">
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" mandatory="true" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="trainee" label="Position" mandatory="true" max_length="40" name="u_choice_3" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Manager" sequence="0" value="manager"/>
+                <element inactive_on_update="false" label="Developer" sequence="1" value="developer"/>
+                <element inactive_on_update="false" label="Trainee" sequence="2" value="trainee"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Dateofbirth" mandatory="true" max_length="40" name="u_glide_date_2" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Name" mandatory="true" max_length="40" name="u_string_1" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Email" mandatory="true" max_length="40" name="u_string_4" type="string"/>
+    </element>
+</database>

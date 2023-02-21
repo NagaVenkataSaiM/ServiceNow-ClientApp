@@ -1,0 +1,461 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="wf_workflow_version">
+    <wf_workflow_version action="DELETE">
+        <active>false</active>
+        <activity_stages>{"subflows":[],"stages":{},"activities":{},"ends":["46ab649ff0c521107f442effab1b28e8"]}</activity_stages>
+        <after_business_rules>false</after_business_rules>
+        <checked_out/>
+        <checked_out_by/>
+        <column_renderer display_value="Workflow-driven">a56213111b030100adca1e094f0713ac</column_renderer>
+        <condition/>
+        <condition_type>run_match</condition_type>
+        <description/>
+        <expected_sequences>06ab649ff0c521107f442effab1b28e6,596d6013f00921107f442effab1b28d6,46ab649ff0c521107f442effab1b28e8</expected_sequences>
+        <expected_time>1970-01-01 14:00:00</expected_time>
+        <expected_time_type/>
+        <full_sequences>06ab649ff0c521107f442effab1b28e6,596d6013f00921107f442effab1b28d6,46ab649ff0c521107f442effab1b28e8</full_sequences>
+        <journal/>
+        <max_activity_count>100</max_activity_count>
+        <name>RequestStatusWorkflow</name>
+        <not_cacheable>false</not_cacheable>
+        <on_cancel><![CDATA[// This script executes if the workflow is cancelled.// The global variable context_sys_id contains the sys_id of the cancelled workflow context.]]></on_cancel>
+        <order>100</order>
+        <pin_type>set_by_activity</pin_type>
+        <published>true</published>
+        <relative_duration/>
+        <requires_ert>true</requires_ert>
+        <run_multiple>false</run_multiple>
+        <schedule/>
+        <stage_field/>
+        <stage_order>computed</stage_order>
+        <start display_value="Begin">06ab649ff0c521107f442effab1b28e6</start>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-21 10:39:09</sys_created_on>
+        <sys_id>376b609ff0c521107f442effab1b28db</sys_id>
+        <sys_mod_count>21</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-21 11:03:27</sys_updated_on>
+        <table>x_58872_ClientPro_x_58872_clientpro_x_58872_clientpro_x_58872_clientpro_clientpr</table>
+        <timezone/>
+        <validated>false</validated>
+        <workflow display_value="RequestStatusWorkflow">caab649ff0c521107f442effab1b28e4</workflow>
+    </wf_workflow_version>
+    <wf_workflow action="DELETE">
+        <access>public</access>
+        <description/>
+        <name>RequestStatusWorkflow</name>
+        <preview/>
+        <sys_class_name>wf_workflow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-21 10:39:09</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>caab649ff0c521107f442effab1b28e4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>RequestStatusWorkflow</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="ClientPro" source="x_58872_ClientPro">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ClientPro">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>wf_workflow_caab649ff0c521107f442effab1b28e4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-21 10:39:09</sys_updated_on>
+        <table>x_58872_ClientPro_x_58872_clientpro_x_58872_clientpro_x_58872_clientpro_clientpr</table>
+        <template>false</template>
+        <vars/>
+    </wf_workflow>
+    <wf_activity action="DELETE">
+        <activity_definition display_value="Begin">c7a5e32c0a0a0b3a002377c24ed8ea76</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>1</databus_lookup_id>
+        <height/>
+        <input/>
+        <is_parent>false</is_parent>
+        <name>Begin</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-21 10:39:09</sys_created_on>
+        <sys_id>06ab649ff0c521107f442effab1b28e6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-21 10:39:09</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width>80</width>
+        <workflow_version display_value="RequestStatusWorkflow">376b609ff0c521107f442effab1b28db</workflow_version>
+        <x>20</x>
+        <y>20</y>
+    </wf_activity>
+    <sys_variable_value action="DELETE" query="document_key=06ab649ff0c521107f442effab1b28e6"/>
+    <wf_condition action="DELETE">
+        <activity display_value="Begin">06ab649ff0c521107f442effab1b28e6</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-21 10:39:09</sys_created_on>
+        <sys_id>0aab649ff0c521107f442effab1b28e7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-21 10:39:09</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="DELETE">
+        <activity_definition display_value="End">c7a66f7d0a0a0b3a004544a6d2f14076</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>2</databus_lookup_id>
+        <height/>
+        <input/>
+        <is_parent>false</is_parent>
+        <name>End</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-21 10:39:09</sys_created_on>
+        <sys_id>46ab649ff0c521107f442effab1b28e8</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-21 10:52:31</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width>80</width>
+        <workflow_version display_value="RequestStatusWorkflow">376b609ff0c521107f442effab1b28db</workflow_version>
+        <x>622</x>
+        <y>147</y>
+    </wf_activity>
+    <sys_variable_value action="DELETE" query="document_key=46ab649ff0c521107f442effab1b28e8"/>
+    <wf_activity action="DELETE">
+        <activity_definition display_value="Notification">0a6c97790a0a0b2756919eb960284334</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>3</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Request status</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-21 10:52:06</sys_created_on>
+        <sys_id>596d6013f00921107f442effab1b28d6</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-21 10:52:13</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="RequestStatusWorkflow">376b609ff0c521107f442effab1b28db</workflow_version>
+        <x>252</x>
+        <y>111</y>
+    </wf_activity>
+    <sys_variable_value action="DELETE" query="document_key=596d6013f00921107f442effab1b28d6"/>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>596d6013f00921107f442effab1b28d6</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-21 10:52:06</sys_created_on>
+        <sys_id>379eac9ff0c521107f442effab1b286a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-21 10:52:06</sys_updated_on>
+        <value>your request for &#13;
+Request type: ${u_request_type}&#13;
+is &#13;
+State: ${state} .</value>
+        <variable display_value="Message">c35db5a50a0a0ba96248a70938ae8de6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>596d6013f00921107f442effab1b28d6</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-21 10:52:06</sys_created_on>
+        <sys_id>739eac9ff0c521107f442effab1b2869</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-21 10:52:06</sys_updated_on>
+        <value>${u_reference_2}</value>
+        <variable display_value="To">c35daa890a0a0ba96248a709c32994d6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>596d6013f00921107f442effab1b28d6</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-21 10:52:06</sys_created_on>
+        <sys_id>739eac9ff0c521107f442effab1b286a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-21 10:52:06</sys_updated_on>
+        <value>Request Status</value>
+        <variable display_value="Subject">c35db2180a0a0ba96248a709d1b6df20</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>596d6013f00921107f442effab1b28d6</document_key>
+        <order>500</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-21 10:52:06</sys_created_on>
+        <sys_id>bf9eac9ff0c521107f442effab1b2869</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-21 10:52:06</sys_updated_on>
+        <value>// Set the variable 'answer' to a comma-separated list of user or group sys_ids that you want the email sent to.&#13;
+</value>
+        <variable display_value="To (script)">c35dae3d0a0a0ba96248a7098ed9b4aa</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>596d6013f00921107f442effab1b28d6</document_key>
+        <order>150</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-21 10:52:06</sys_created_on>
+        <sys_id>f79eac9ff0c521107f442effab1b286a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-21 10:52:06</sys_updated_on>
+        <value/>
+        <variable display_value="To (groups)">ae2121c70a0a0b3459708c9a60cd7312</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>596d6013f00921107f442effab1b28d6</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-21 10:52:06</sys_created_on>
+        <sys_id>fb9eac9ff0c521107f442effab1b2869</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-21 10:52:06</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Advanced">6d6816cd0a6a803f0853a8df38007572</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>596d6013f00921107f442effab1b28d6</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-21 10:52:06</sys_created_on>
+        <sys_id>739eac9ff0c521107f442effab1b2869</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-21 10:52:06</sys_updated_on>
+        <value>${u_reference_2}</value>
+        <variable display_value="To">c35daa890a0a0ba96248a709c32994d6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>596d6013f00921107f442effab1b28d6</document_key>
+        <order>150</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-21 10:52:06</sys_created_on>
+        <sys_id>f79eac9ff0c521107f442effab1b286a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-21 10:52:06</sys_updated_on>
+        <value/>
+        <variable display_value="To (groups)">ae2121c70a0a0b3459708c9a60cd7312</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>596d6013f00921107f442effab1b28d6</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-21 10:52:06</sys_created_on>
+        <sys_id>739eac9ff0c521107f442effab1b286a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-21 10:52:06</sys_updated_on>
+        <value>Request Status</value>
+        <variable display_value="Subject">c35db2180a0a0ba96248a709d1b6df20</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>596d6013f00921107f442effab1b28d6</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-21 10:52:06</sys_created_on>
+        <sys_id>379eac9ff0c521107f442effab1b286a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-21 10:52:06</sys_updated_on>
+        <value>your request for &#13;
+Request type: ${u_request_type}&#13;
+is &#13;
+State: ${state} .</value>
+        <variable display_value="Message">c35db5a50a0a0ba96248a70938ae8de6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>596d6013f00921107f442effab1b28d6</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-21 10:52:06</sys_created_on>
+        <sys_id>fb9eac9ff0c521107f442effab1b2869</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-21 10:52:06</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Advanced">6d6816cd0a6a803f0853a8df38007572</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>596d6013f00921107f442effab1b28d6</document_key>
+        <order>500</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-21 10:52:06</sys_created_on>
+        <sys_id>bf9eac9ff0c521107f442effab1b2869</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-21 10:52:06</sys_updated_on>
+        <value>// Set the variable 'answer' to a comma-separated list of user or group sys_ids that you want the email sent to.&#13;
+</value>
+        <variable display_value="To (script)">c35dae3d0a0a0ba96248a7098ed9b4aa</variable>
+    </sys_variable_value>
+    <wf_condition action="DELETE">
+        <activity display_value="Request status">596d6013f00921107f442effab1b28d6</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-21 10:52:06</sys_created_on>
+        <sys_id>779eac9ff0c521107f442effab1b286b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-21 10:52:06</sys_updated_on>
+    </wf_condition>
+    <wf_transition action="DELETE">
+        <condition display_value="Always">0aab649ff0c521107f442effab1b28e7</condition>
+        <from display_value="Begin">06ab649ff0c521107f442effab1b28e6</from>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-21 10:39:09</sys_created_on>
+        <sys_id>ceab649ff0c521107f442effab1b28e8</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-21 10:52:22</sys_updated_on>
+        <to display_value="Request status">596d6013f00921107f442effab1b28d6</to>
+    </wf_transition>
+    <wf_transition action="DELETE">
+        <condition display_value="Always">779eac9ff0c521107f442effab1b286b</condition>
+        <from display_value="Request status">596d6013f00921107f442effab1b28d6</from>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-21 10:52:27</sys_created_on>
+        <sys_id>e8be2c13f00921107f442effab1b281d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-21 10:52:27</sys_updated_on>
+        <to display_value="End">46ab649ff0c521107f442effab1b28e8</to>
+    </wf_transition>
+    <wf_estimated_runtime_config action="DELETE">
+        <estimated_run_time/>
+        <no_of_data_points>1</no_of_data_points>
+        <percentage_threshold_ert>20</percentage_threshold_ert>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-21 10:39:09</sys_created_on>
+        <sys_id>46ab649ff0c521107f442effab1b28e3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-21 10:39:09</sys_updated_on>
+        <workflow_version display_value="RequestStatusWorkflow">376b609ff0c521107f442effab1b28db</workflow_version>
+    </wf_estimated_runtime_config>
+    <wf_workflow_version action="DELETE" query="workflow=caab649ff0c521107f442effab1b28e4^sys_id!=376b609ff0c521107f442effab1b28db">
+        <published>false</published>
+    </wf_workflow_version>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ClientPro">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>bdf68f4397c969109c987a121153af2c</instance_id>
+        <instance_name>nowlearning-nlinst00595695-001</instance_name>
+        <name>wf_workflow_caab649ff0c521107f442effab1b28e4</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="wf_workflow_version"&gt;&lt;wf_workflow_version action="INSERT_OR_UPDATE"&gt;&lt;active&gt;false&lt;/active&gt;&lt;activity_stages&gt;{"subflows":[],"stages":{},"activities":{},"ends":["46ab649ff0c521107f442effab1b28e8"]}&lt;/activity_stages&gt;&lt;after_business_rules&gt;false&lt;/after_business_rules&gt;&lt;checked_out/&gt;&lt;checked_out_by/&gt;&lt;column_renderer display_value="Workflow-driven"&gt;a56213111b030100adca1e094f0713ac&lt;/column_renderer&gt;&lt;condition/&gt;&lt;condition_type&gt;run_match&lt;/condition_type&gt;&lt;description/&gt;&lt;expected_sequences&gt;06ab649ff0c521107f442effab1b28e6,596d6013f00921107f442effab1b28d6,46ab649ff0c521107f442effab1b28e8&lt;/expected_sequences&gt;&lt;expected_time&gt;1970-01-01 14:00:00&lt;/expected_time&gt;&lt;expected_time_type/&gt;&lt;full_sequences&gt;06ab649ff0c521107f442effab1b28e6,596d6013f00921107f442effab1b28d6,46ab649ff0c521107f442effab1b28e8&lt;/full_sequences&gt;&lt;journal/&gt;&lt;max_activity_count&gt;100&lt;/max_activity_count&gt;&lt;name&gt;RequestStatusWorkflow&lt;/name&gt;&lt;not_cacheable&gt;false&lt;/not_cacheable&gt;&lt;on_cancel&gt;&lt;![CDATA[// This script executes if the workflow is cancelled.// The global variable context_sys_id contains the sys_id of the cancelled workflow context.]]&gt;&lt;/on_cancel&gt;&lt;order&gt;100&lt;/order&gt;&lt;pin_type&gt;set_by_activity&lt;/pin_type&gt;&lt;published&gt;true&lt;/published&gt;&lt;relative_duration/&gt;&lt;requires_ert&gt;true&lt;/requires_ert&gt;&lt;run_multiple&gt;false&lt;/run_multiple&gt;&lt;schedule/&gt;&lt;stage_field/&gt;&lt;stage_order&gt;computed&lt;/stage_order&gt;&lt;start display_value="Begin"&gt;06ab649ff0c521107f442effab1b28e6&lt;/start&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-02-21 10:39:09&lt;/sys_created_on&gt;&lt;sys_id&gt;376b609ff0c521107f442effab1b28db&lt;/sys_id&gt;&lt;sys_mod_count&gt;21&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-02-21 11:03:27&lt;/sys_updated_on&gt;&lt;table&gt;x_58872_ClientPro_x_58872_clientpro_x_58872_clientpro_x_58872_clientpro_clientpr&lt;/table&gt;&lt;timezone/&gt;&lt;validated&gt;false&lt;/validated&gt;&lt;workflow display_value="RequestStatusWorkflow"&gt;caab649ff0c521107f442effab1b28e4&lt;/workflow&gt;&lt;/wf_workflow_version&gt;&lt;wf_workflow action="INSERT_OR_UPDATE"&gt;&lt;access&gt;public&lt;/access&gt;&lt;description/&gt;&lt;name&gt;RequestStatusWorkflow&lt;/name&gt;&lt;preview/&gt;&lt;sys_class_name&gt;wf_workflow&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-02-21 10:39:09&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;caab649ff0c521107f442effab1b28e4&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;RequestStatusWorkflow&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="ClientPro" source="x_58872_ClientPro"&gt;6ead8e780f603200cd674f8ce1050ed1&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="ClientPro"&gt;6ead8e780f603200cd674f8ce1050ed1&lt;/sys_scope&gt;&lt;sys_update_name&gt;wf_workflow_caab649ff0c521107f442effab1b28e4&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-02-21 10:39:09&lt;/sys_updated_on&gt;&lt;table&gt;x_58872_ClientPro_x_58872_clientpro_x_58872_clientpro_x_58872_clientpro_clientpr&lt;/table&gt;&lt;template&gt;false&lt;/template&gt;&lt;vars/&gt;&lt;/wf_workflow&gt;&lt;wf_activity action="INSERT_OR_UPDATE"&gt;&lt;activity_definition display_value="Begin"&gt;c7a5e32c0a0a0b3a002377c24ed8ea76&lt;/activity_definition&gt;&lt;activity_definition_updated&gt;false&lt;/activity_definition_updated&gt;&lt;databus_lookup_id&gt;1&lt;/databus_lookup_id&gt;&lt;height/&gt;&lt;input/&gt;&lt;is_parent&gt;false&lt;/is_parent&gt;&lt;name&gt;Begin&lt;/name&gt;&lt;new_activity_definition/&gt;&lt;notes/&gt;&lt;out_of_date&gt;false&lt;/out_of_date&gt;&lt;parent/&gt;&lt;pinned&gt;false&lt;/pinned&gt;&lt;pinned_version/&gt;&lt;stage/&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-02-21 10:39:09&lt;/sys_created_on&gt;&lt;sys_id&gt;06ab649ff0c521107f442effab1b28e6&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-02-21 10:39:09&lt;/sys_updated_on&gt;&lt;timeout&gt;1970-01-01 00:00:00&lt;/timeout&gt;&lt;vars/&gt;&lt;width&gt;80&lt;/width&gt;&lt;workflow_version display_value="RequestStatusWorkflow"&gt;376b609ff0c521107f442effab1b28db&lt;/workflow_version&gt;&lt;x&gt;20&lt;/x&gt;&lt;y&gt;20&lt;/y&gt;&lt;/wf_activity&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=06ab649ff0c521107f442effab1b28e6"/&gt;&lt;wf_condition action="INSERT_OR_UPDATE"&gt;&lt;activity display_value="Begin"&gt;06ab649ff0c521107f442effab1b28e6&lt;/activity&gt;&lt;condition&gt;true&lt;/condition&gt;&lt;condition_default/&gt;&lt;condition_type&gt;standard&lt;/condition_type&gt;&lt;else_flag&gt;false&lt;/else_flag&gt;&lt;error&gt;false&lt;/error&gt;&lt;event&gt;false&lt;/event&gt;&lt;event_name/&gt;&lt;is_positive&gt;true&lt;/is_positive&gt;&lt;name&gt;Always&lt;/name&gt;&lt;order&gt;0&lt;/order&gt;&lt;short_description/&gt;&lt;skip_during_generate&gt;false&lt;/skip_during_generate&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-02-21 10:39:09&lt;/sys_created_on&gt;&lt;sys_id&gt;0aab649ff0c521107f442effab1b28e7&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-02-21 10:39:09&lt;/sys_updated_on&gt;&lt;/wf_condition&gt;&lt;wf_activity action="INSERT_OR_UPDATE"&gt;&lt;activity_definition display_value="End"&gt;c7a66f7d0a0a0b3a004544a6d2f14076&lt;/activity_definition&gt;&lt;activity_definition_updated&gt;false&lt;/activity_definition_updated&gt;&lt;databus_lookup_id&gt;2&lt;/databus_lookup_id&gt;&lt;height/&gt;&lt;input/&gt;&lt;is_parent&gt;false&lt;/is_parent&gt;&lt;name&gt;End&lt;/name&gt;&lt;new_activity_definition/&gt;&lt;notes/&gt;&lt;out_of_date&gt;false&lt;/out_of_date&gt;&lt;parent/&gt;&lt;pinned&gt;false&lt;/pinned&gt;&lt;pinned_version/&gt;&lt;stage/&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-02-21 10:39:09&lt;/sys_created_on&gt;&lt;sys_id&gt;46ab649ff0c521107f442effab1b28e8&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-02-21 10:52:31&lt;/sys_updated_on&gt;&lt;timeout&gt;1970-01-01 00:00:00&lt;/timeout&gt;&lt;vars/&gt;&lt;width&gt;80&lt;/width&gt;&lt;workflow_version display_value="RequestStatusWorkflow"&gt;376b609ff0c521107f442effab1b28db&lt;/workflow_version&gt;&lt;x&gt;622&lt;/x&gt;&lt;y&gt;147&lt;/y&gt;&lt;/wf_activity&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=46ab649ff0c521107f442effab1b28e8"/&gt;&lt;wf_activity action="INSERT_OR_UPDATE"&gt;&lt;activity_definition display_value="Notification"&gt;0a6c97790a0a0b2756919eb960284334&lt;/activity_definition&gt;&lt;activity_definition_updated&gt;false&lt;/activity_definition_updated&gt;&lt;databus_lookup_id&gt;3&lt;/databus_lookup_id&gt;&lt;height/&gt;&lt;input&gt;{}&lt;/input&gt;&lt;is_parent&gt;false&lt;/is_parent&gt;&lt;name&gt;Request status&lt;/name&gt;&lt;new_activity_definition/&gt;&lt;notes/&gt;&lt;out_of_date&gt;false&lt;/out_of_date&gt;&lt;parent/&gt;&lt;pinned&gt;false&lt;/pinned&gt;&lt;pinned_version/&gt;&lt;stage/&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-02-21 10:52:06&lt;/sys_created_on&gt;&lt;sys_id&gt;596d6013f00921107f442effab1b28d6&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-02-21 10:52:13&lt;/sys_updated_on&gt;&lt;timeout&gt;1970-01-01 00:00:00&lt;/timeout&gt;&lt;vars/&gt;&lt;width/&gt;&lt;workflow_version display_value="RequestStatusWorkflow"&gt;376b609ff0c521107f442effab1b28db&lt;/workflow_version&gt;&lt;x&gt;252&lt;/x&gt;&lt;y&gt;111&lt;/y&gt;&lt;/wf_activity&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=596d6013f00921107f442effab1b28d6"/&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;596d6013f00921107f442effab1b28d6&lt;/document_key&gt;&lt;order&gt;300&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-02-21 10:52:06&lt;/sys_created_on&gt;&lt;sys_id&gt;379eac9ff0c521107f442effab1b286a&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-02-21 10:52:06&lt;/sys_updated_on&gt;&lt;value&gt;your request for &amp;#13;
+Request type: ${u_request_type}&amp;#13;
+is &amp;#13;
+State: ${state} .&lt;/value&gt;&lt;variable display_value="Message"&gt;c35db5a50a0a0ba96248a70938ae8de6&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;596d6013f00921107f442effab1b28d6&lt;/document_key&gt;&lt;order&gt;100&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-02-21 10:52:06&lt;/sys_created_on&gt;&lt;sys_id&gt;739eac9ff0c521107f442effab1b2869&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-02-21 10:52:06&lt;/sys_updated_on&gt;&lt;value&gt;${u_reference_2}&lt;/value&gt;&lt;variable display_value="To"&gt;c35daa890a0a0ba96248a709c32994d6&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;596d6013f00921107f442effab1b28d6&lt;/document_key&gt;&lt;order&gt;200&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-02-21 10:52:06&lt;/sys_created_on&gt;&lt;sys_id&gt;739eac9ff0c521107f442effab1b286a&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-02-21 10:52:06&lt;/sys_updated_on&gt;&lt;value&gt;Request Status&lt;/value&gt;&lt;variable display_value="Subject"&gt;c35db2180a0a0ba96248a709d1b6df20&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;596d6013f00921107f442effab1b28d6&lt;/document_key&gt;&lt;order&gt;500&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-02-21 10:52:06&lt;/sys_created_on&gt;&lt;sys_id&gt;bf9eac9ff0c521107f442effab1b2869&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-02-21 10:52:06&lt;/sys_updated_on&gt;&lt;value&gt;// Set the variable 'answer' to a comma-separated list of user or group sys_ids that you want the email sent to.&amp;#13;
+&lt;/value&gt;&lt;variable display_value="To (script)"&gt;c35dae3d0a0a0ba96248a7098ed9b4aa&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;596d6013f00921107f442effab1b28d6&lt;/document_key&gt;&lt;order&gt;150&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-02-21 10:52:06&lt;/sys_created_on&gt;&lt;sys_id&gt;f79eac9ff0c521107f442effab1b286a&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-02-21 10:52:06&lt;/sys_updated_on&gt;&lt;value/&gt;&lt;variable display_value="To (groups)"&gt;ae2121c70a0a0b3459708c9a60cd7312&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;596d6013f00921107f442effab1b28d6&lt;/document_key&gt;&lt;order&gt;400&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-02-21 10:52:06&lt;/sys_created_on&gt;&lt;sys_id&gt;fb9eac9ff0c521107f442effab1b2869&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-02-21 10:52:06&lt;/sys_updated_on&gt;&lt;value&gt;0&lt;/value&gt;&lt;variable display_value="Advanced"&gt;6d6816cd0a6a803f0853a8df38007572&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;596d6013f00921107f442effab1b28d6&lt;/document_key&gt;&lt;order&gt;100&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-02-21 10:52:06&lt;/sys_created_on&gt;&lt;sys_id&gt;739eac9ff0c521107f442effab1b2869&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-02-21 10:52:06&lt;/sys_updated_on&gt;&lt;value&gt;${u_reference_2}&lt;/value&gt;&lt;variable display_value="To"&gt;c35daa890a0a0ba96248a709c32994d6&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;596d6013f00921107f442effab1b28d6&lt;/document_key&gt;&lt;order&gt;150&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-02-21 10:52:06&lt;/sys_created_on&gt;&lt;sys_id&gt;f79eac9ff0c521107f442effab1b286a&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-02-21 10:52:06&lt;/sys_updated_on&gt;&lt;value/&gt;&lt;variable display_value="To (groups)"&gt;ae2121c70a0a0b3459708c9a60cd7312&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;596d6013f00921107f442effab1b28d6&lt;/document_key&gt;&lt;order&gt;200&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-02-21 10:52:06&lt;/sys_created_on&gt;&lt;sys_id&gt;739eac9ff0c521107f442effab1b286a&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-02-21 10:52:06&lt;/sys_updated_on&gt;&lt;value&gt;Request Status&lt;/value&gt;&lt;variable display_value="Subject"&gt;c35db2180a0a0ba96248a709d1b6df20&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;596d6013f00921107f442effab1b28d6&lt;/document_key&gt;&lt;order&gt;300&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-02-21 10:52:06&lt;/sys_created_on&gt;&lt;sys_id&gt;379eac9ff0c521107f442effab1b286a&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-02-21 10:52:06&lt;/sys_updated_on&gt;&lt;value&gt;your request for &amp;#13;
+Request type: ${u_request_type}&amp;#13;
+is &amp;#13;
+State: ${state} .&lt;/value&gt;&lt;variable display_value="Message"&gt;c35db5a50a0a0ba96248a70938ae8de6&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;596d6013f00921107f442effab1b28d6&lt;/document_key&gt;&lt;order&gt;400&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-02-21 10:52:06&lt;/sys_created_on&gt;&lt;sys_id&gt;fb9eac9ff0c521107f442effab1b2869&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-02-21 10:52:06&lt;/sys_updated_on&gt;&lt;value&gt;0&lt;/value&gt;&lt;variable display_value="Advanced"&gt;6d6816cd0a6a803f0853a8df38007572&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;596d6013f00921107f442effab1b28d6&lt;/document_key&gt;&lt;order&gt;500&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-02-21 10:52:06&lt;/sys_created_on&gt;&lt;sys_id&gt;bf9eac9ff0c521107f442effab1b2869&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-02-21 10:52:06&lt;/sys_updated_on&gt;&lt;value&gt;// Set the variable 'answer' to a comma-separated list of user or group sys_ids that you want the email sent to.&amp;#13;
+&lt;/value&gt;&lt;variable display_value="To (script)"&gt;c35dae3d0a0a0ba96248a7098ed9b4aa&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;wf_condition action="INSERT_OR_UPDATE"&gt;&lt;activity display_value="Request status"&gt;596d6013f00921107f442effab1b28d6&lt;/activity&gt;&lt;condition&gt;true&lt;/condition&gt;&lt;condition_default/&gt;&lt;condition_type&gt;standard&lt;/condition_type&gt;&lt;else_flag&gt;false&lt;/else_flag&gt;&lt;error&gt;false&lt;/error&gt;&lt;event&gt;false&lt;/event&gt;&lt;event_name/&gt;&lt;is_positive&gt;true&lt;/is_positive&gt;&lt;name&gt;Always&lt;/name&gt;&lt;order&gt;0&lt;/order&gt;&lt;short_description/&gt;&lt;skip_during_generate&gt;false&lt;/skip_during_generate&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-02-21 10:52:06&lt;/sys_created_on&gt;&lt;sys_id&gt;779eac9ff0c521107f442effab1b286b&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-02-21 10:52:06&lt;/sys_updated_on&gt;&lt;/wf_condition&gt;&lt;wf_transition action="INSERT_OR_UPDATE"&gt;&lt;condition display_value="Always"&gt;0aab649ff0c521107f442effab1b28e7&lt;/condition&gt;&lt;from display_value="Begin"&gt;06ab649ff0c521107f442effab1b28e6&lt;/from&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-02-21 10:39:09&lt;/sys_created_on&gt;&lt;sys_id&gt;ceab649ff0c521107f442effab1b28e8&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-02-21 10:52:22&lt;/sys_updated_on&gt;&lt;to display_value="Request status"&gt;596d6013f00921107f442effab1b28d6&lt;/to&gt;&lt;/wf_transition&gt;&lt;wf_transition action="INSERT_OR_UPDATE"&gt;&lt;condition display_value="Always"&gt;779eac9ff0c521107f442effab1b286b&lt;/condition&gt;&lt;from display_value="Request status"&gt;596d6013f00921107f442effab1b28d6&lt;/from&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-02-21 10:52:27&lt;/sys_created_on&gt;&lt;sys_id&gt;e8be2c13f00921107f442effab1b281d&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-02-21 10:52:27&lt;/sys_updated_on&gt;&lt;to display_value="End"&gt;46ab649ff0c521107f442effab1b28e8&lt;/to&gt;&lt;/wf_transition&gt;&lt;wf_estimated_runtime_config action="INSERT_OR_UPDATE"&gt;&lt;estimated_run_time/&gt;&lt;no_of_data_points&gt;1&lt;/no_of_data_points&gt;&lt;percentage_threshold_ert&gt;20&lt;/percentage_threshold_ert&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-02-21 10:39:09&lt;/sys_created_on&gt;&lt;sys_id&gt;46ab649ff0c521107f442effab1b28e3&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-02-21 10:39:09&lt;/sys_updated_on&gt;&lt;workflow_version display_value="RequestStatusWorkflow"&gt;376b609ff0c521107f442effab1b28db&lt;/workflow_version&gt;&lt;/wf_estimated_runtime_config&gt;&lt;wf_workflow_version action="update_multiple" query="workflow=caab649ff0c521107f442effab1b28e4^sys_id!=376b609ff0c521107f442effab1b28db"&gt;&lt;published&gt;false&lt;/published&gt;&lt;/wf_workflow_version&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1879537925</payload_hash>
+        <record_name>RequestStatusWorkflow</record_name>
+        <reverted_from/>
+        <source>3a8deb4ff0c121107f442effab1b2887</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-21 11:03:28</sys_created_on>
+        <sys_id>82313417f00921107f442effab1b28c8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18673a4883a0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-21 11:03:28</sys_updated_on>
+        <type>Workflow</type>
+        <update_guid>8a313417a709211060fdaed68b8cd3c7</update_guid>
+        <update_guid_history>8a313417a709211060fdaed68b8cd3c7:-1879537925,955fec53fa0921103d2441789e28f0d0:700959906</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="RequestStatusWorkflow">0d827153f00d21107f442effab1b280a</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-21 15:48:46</sys_created_on>
+        <sys_db_object display_value="" name="wf_workflow">wf_workflow</sys_db_object>
+        <sys_id>0040a6da48934ec0805c8c7aa662c400</sys_id>
+        <sys_metadata>caab649ff0c521107f442effab1b28e4</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>RequestStatusWorkflow</sys_name>
+        <sys_package display_value="ClientPro" source="x_58872_ClientPro">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ClientPro">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>wf_workflow_caab649ff0c521107f442effab1b28e4</sys_update_name>
+        <sys_update_version display_value="wf_workflow_caab649ff0c521107f442effab1b28e4">82313417f00921107f442effab1b28c8</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-21 15:48:46</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
