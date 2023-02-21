@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number">
+    <sys_number action="DELETE">
+        <category display_value="" name="x_58872_ClientPro_x_58872_clientpro_x_58872_clientpro_x_58872_clientpro_clientpr">x_58872_ClientPro_x_58872_clientpro_x_58872_clientpro_x_58872_clientpro_clientpr</category>
+        <maximum_digits>7</maximum_digits>
+        <number>2000</number>
+        <prefix>CLI</prefix>
+        <sys_class_name>sys_number</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-21 07:00:34</sys_created_on>
+        <sys_id>37997f8bf00521107f442effab1b2849</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CLI</sys_name>
+        <sys_package display_value="ClientPro" source="x_58872_ClientPro">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ClientPro">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_number_37997f8bf00521107f442effab1b2849</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-21 07:00:34</sys_updated_on>
+    </sys_number>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ClientPro">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>bdf68f4397c969109c987a121153af2c</instance_id>
+        <instance_name>nowlearning-nlinst00595695-001</instance_name>
+        <name>sys_number_37997f8bf00521107f442effab1b2849</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number"><sys_number action="INSERT_OR_UPDATE"><category display_value="" name="x_58872_ClientPro_x_58872_clientpro_x_58872_clientpro_x_58872_clientpro_clientpr">x_58872_ClientPro_x_58872_clientpro_x_58872_clientpro_x_58872_clientpro_clientpr</category><maximum_digits>7</maximum_digits><number>2000</number><prefix>CLI</prefix><sys_class_name>sys_number</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-02-21 07:00:34</sys_created_on><sys_id>37997f8bf00521107f442effab1b2849</sys_id><sys_mod_count>0</sys_mod_count><sys_name>CLI</sys_name><sys_package display_value="ClientPro" source="x_58872_ClientPro">6ead8e780f603200cd674f8ce1050ed1</sys_package><sys_policy/><sys_scope display_value="ClientPro">6ead8e780f603200cd674f8ce1050ed1</sys_scope><sys_update_name>sys_number_37997f8bf00521107f442effab1b2849</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-02-21 07:00:34</sys_updated_on></sys_number></record_update>]]></payload>
+        <payload_hash>-945711992</payload_hash>
+        <record_name>CLI</record_name>
+        <reverted_from/>
+        <source>3a8deb4ff0c121107f442effab1b2887</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-21 07:00:34</sys_created_on>
+        <sys_id>f7997f8bf00521107f442effab1b2850</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18672c627260000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-21 07:00:34</sys_updated_on>
+        <type>Number</type>
+        <update_guid>33997f8b8f052110e5c2fe9386107450</update_guid>
+        <update_guid_history>33997f8b8f052110e5c2fe9386107450:-945711992</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-21 07:03:22</sys_created_on>
+        <sys_db_object display_value="" name="sys_number">sys_number</sys_db_object>
+        <sys_id>1dfa28b83c7a44b486b313f37805c871</sys_id>
+        <sys_metadata>37997f8bf00521107f442effab1b2849</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CLI</sys_name>
+        <sys_package display_value="ClientPro" source="x_58872_ClientPro">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent display_value="">8329b30bf00521107f442effab1b2832</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="ClientPro">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sys_number_37997f8bf00521107f442effab1b2849</sys_update_name>
+        <sys_update_version display_value="sys_number_37997f8bf00521107f442effab1b2849">f7997f8bf00521107f442effab1b2850</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-21 07:03:22</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
