@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_report">
     <sys_report action="INSERT_OR_UPDATE">
         <additional_groupby/>
-        <aggregate>COUNT</aggregate>
+        <aggregate>SUM</aggregate>
         <aggregation_source>no_override</aggregation_source>
         <allow_data_label_overlap>false</allow_data_label_overlap>
         <apply_alias>false</apply_alias>
@@ -45,8 +45,8 @@
         <donut_width_percent>30</donut_width_percent>
         <end_time/>
         <exp_report_attrs>true</exp_report_attrs>
-        <field>u_reference_1</field>
-        <field_list>number,priority,state,assigned_to,short_description,sys_class_name</field_list>
+        <field>u_float_5</field>
+        <field_list>number,u_float_5,u_glide_date_7,u_glide_date_time_6,u_reference_4,u_string_1,u_string_2,u_string_3</field_list>
         <filter/>
         <formatting_configuration>{"table":"incident","stringFormattingProperties":{},"durationFormattingProperties":{},"dateFormattingProperties":{},"numberFormattingProperties":{}}</formatting_configuration>
         <from/>
@@ -101,21 +101,21 @@
         <source_type>table</source_type>
         <start_time/>
         <style_config/>
-        <sumfield/>
+        <sumfield>u_float_5</sumfield>
         <sys_class_name>sys_report</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-02-22 04:50:13</sys_created_on>
-        <sys_id>1465ec23944121107f448479e46a47fb</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_name>Utilization by team</sys_name>
+        <sys_created_on>2023-02-22 05:01:17</sys_created_on>
+        <sys_id>a6e7eca3944121107f448479e46a4736</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Project data</sys_name>
         <sys_package display_value="ClientPro" source="x_58872_ClientPro">6ead8e780f603200cd674f8ce1050ed1</sys_package>
         <sys_policy/>
         <sys_scope display_value="ClientPro">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
-        <sys_update_name>sys_report_1465ec23944121107f448479e46a47fb</sys_update_name>
+        <sys_update_name>sys_report_a6e7eca3944121107f448479e46a4736</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-02-22 05:11:46</sys_updated_on>
-        <table>x_58872_ClientPro_x_58872_clientpro_x_58872_clientpro_x_58872_clientpro_clientpr</table>
-        <title>Utilization by team</title>
+        <sys_updated_on>2023-02-22 05:10:38</sys_updated_on>
+        <table>x_58872_ClientPro_x_58872_clientpro_x_58872_clientpro_x_58872_clientpro_employee</table>
+        <title>Project data</title>
         <title_horizontal_alignment>center</title_horizontal_alignment>
         <title_vertical_alignment>top</title_vertical_alignment>
         <to/>

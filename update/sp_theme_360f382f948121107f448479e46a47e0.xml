@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_theme">
+    <sp_theme action="INSERT_OR_UPDATE">
+        <css_variables>$brand-danger: #C83C36 !default;&#13;
+$brand-info: #6ABECF !default;&#13;
+$sp-accessible-color-replacement: #165C53;&#13;
+$brand-primary: $sp-accessible-color-replacement !default;&#13;
+$brand-success: #48C891 !default;&#13;
+$brand-warning: #DFD139 !default;&#13;
+$sp-navbar-divider-color: #5A7F71 !default;&#13;
+$sp-tagline-color: #ffffff;&#13;
+$accessible-placeholder-gray: #565656;&#13;
+$sp-logo-margin-x: 15px !default;&#13;
+&#13;
+// Link hover decoration&#13;
+$link-hover-decoration: underline !default;&#13;
+&#13;
+// Viridian variables&#13;
+$gray-base: #000000;&#13;
+$gray-dark: lighten($gray-base, 18.04%);&#13;
+$gray-darker: lighten($gray-base, 8.24%);&#13;
+$gray-light: lighten($gray-base, 40%);&#13;
+$gray-lighter: lighten($gray-base, 94.51%);&#13;
+$gray: lighten($gray-base, 29.02%);&#13;
+$body-bg: #ffffff;&#13;
+$brand-danger: #C83C36;&#13;
+$brand-info: #6ABECF;&#13;
+$brand-primary: $sp-accessible-color-replacement !default;&#13;
+$brand-success: #48C891;&#13;
+$brand-warning: #DFD139;&#13;
+$dropdown-link-disabled-color: $gray-light;&#13;
+$link-color: $brand-primary;&#13;
+$link-hover-color: darken(desaturate(adjust-hue($link-color, 1), 0.42%), 16.67);&#13;
+$navbar-inverse-bg: #293e40;&#13;
+$navbar-inverse-link-active-bg: #213234;&#13;
+$navbar-inverse-link-color: #A7B0B2;&#13;
+$navbar-inverse-link-hover-bg: $brand-primary;&#13;
+$navbar-inverse-link-hover-color: #fff;&#13;
+$panel-primary-border: $brand-primary ;&#13;
+$panel-primary-heading-bg: $brand-primary ;&#13;
+$panel-primary-text: #ffffff;&#13;
+$primary: $brand-primary;&#13;
+$text-muted: $gray-light;&#13;
+$input-border-focus: #54AC98;&#13;
+$quicklinks-background: #EDF7F5;&#13;
+$text-color: $gray-dark;&#13;
+$btn-success-bg: $brand-success;&#13;
+$btn-primary-color: #ffffff;&#13;
+$btn-primary-bg: $brand-primary;&#13;
+$btn-primary-border: darken($btn-primary-bg, 5%);&#13;
+$btn-success-bg: $brand-success;&#13;
+$btn-success-border: darken($btn-success-bg, 5%);&#13;
+$btn-success-color: darken(desaturate(adjust-hue($brand-success, 3), 15.64%), 34.31);&#13;
+$component-active-color: $gray;&#13;
+$component-active-bg: #f5f5f5;&#13;
+$state-danger-bg: lighten(saturate(adjust-hue($brand-danger, 354), 42.52%), 42.94);&#13;
+$state-danger-border: $brand-danger;&#13;
+$state-danger-text: darken(saturate(adjust-hue($brand-danger, 2), 1.25%), 25.10);&#13;
+$state-info-bg: lighten(desaturate($brand-info, 3.27%), 19.02);&#13;
+$state-info-border: $brand-info;&#13;
+$state-info-text: darken(desaturate(adjust-hue($brand-info, 1), 2.75%), 41.57);&#13;
+$state-success-bg: lighten(saturate($brand-success, 3.67%), 28.24);&#13;
+$state-success-border: $brand-success;&#13;
+$state-success-text: darken(desaturate(adjust-hue($brand-success, 3), 15.64%), 34.31);&#13;
+$state-warning-bg: lighten(saturate(adjust-hue($brand-warning, -3), 17.70%), 29.61);&#13;
+$state-warning-border: $brand-warning;&#13;
+$state-warning-text: darken(desaturate(adjust-hue($brand-warning, -4), 20.32%), 44.31);&#13;
+$alert-danger-bg: $state-danger-bg;&#13;
+$alert-danger-border: $state-danger-border;&#13;
+$alert-danger-text: $state-danger-text;&#13;
+$alert-info-bg: $state-info-bg;&#13;
+$alert-info-border: $state-info-border;&#13;
+$alert-info-text: $state-info-text;&#13;
+$alert-success-bg: $state-success-bg;&#13;
+$alert-success-border: $state-success-border;&#13;
+$alert-success-text: $state-success-text;&#13;
+$alert-warning-bg: $state-warning-bg;&#13;
+$alert-warning-border: $state-warning-border;&#13;
+$alert-warning-text: $state-warning-text;&#13;
+&#13;
+// To get service status messages consistent with brand colors&#13;
+$primary: $brand-primary;&#13;
+$warning: $brand-warning;&#13;
+$success: $brand-success;&#13;
+$info: $brand-info;&#13;
+$danger: $brand-danger;&#13;
+$input-border-placeholder: white;&#13;
+&#13;
+&#13;
+// Service Catalog panel hover highlight&#13;
+$panel-list-item: lighten(desaturate(adjust-hue($panel-primary-heading-bg, -6), 20.79%), 58.04);&#13;
+$panel-primary-heading-bg: #47a992;&#13;
+&#13;
+$multiple-issues-color: #7070B3;&#13;
+$no-issue-color: lighten($brand-success, 40%);&#13;
+$planned-maintenance-color: lighten($brand-info, 35%);&#13;
+$service-degredation-color: lighten($brand-warning, 40%);&#13;
+$service-outage-color: lighten($brand-danger, 45%);&#13;
+&#13;
+$no-issue-border-color: $brand-success;&#13;
+$planned-maintenance-border-color: $brand-info;&#13;
+$service-degredation-border-color: $brand-warning;&#13;
+$service-outage-border-color: $brand-danger;&#13;
+&#13;
+$no-issues-text: $state-success-text;&#13;
+$planned-maintenance-text: $state-info-text;&#13;
+$service-degredation-text: $state-info-text;&#13;
+$service-outage-text: $state-danger-bg;&#13;
+&#13;
+$login-btn-bg: $btn-primary-bg;&#13;
+$login-btn-border: $btn-primary-border;&#13;
+&#13;
+$qa-tag-color: $state-info-text;&#13;
+$qa-tag-bg: $state-info-bg;&#13;
+$qa-tag-border: $state-info-bg;&#13;
+$qa-tag-hover-color: darken($qa-tag-color, 10%);&#13;
+$qa-tag-hover-bg: darken($qa-tag-bg, 10%);&#13;
+&#13;
+$qa-thread-tag-color: $state-info-text;&#13;
+$qa-thread-tag-bg: $state-info-bg;&#13;
+$qa-thread-tag-hover-color: darken($qa-thread-tag-color, 10%);&#13;
+$qa-thread-tag-hover-bg: darken($qa-thread-tag-bg, 10%);&#13;
+&#13;
+$qa-panel-link-color: $link-color;&#13;
+$select2-container-active: $input-border-focus;&#13;
+&#13;
+$not-webkit-outline-color: $input-border-focus;&#13;
+$webkit-outline-color: $input-border-focus;&#13;
+&#13;
+$label-success-bg: $state-success-text;&#13;
+$label-info-bg: $state-info-text;&#13;
+$label-warning-bg: $state-warning-text;&#13;
+$label-danger-bg: $state-danger-text;&#13;
+&#13;
+$data-table-selected: $brand-primary;&#13;
+&#13;
+$button-selected-color: $btn-primary-bg;&#13;
+$dropdown-link-active-bg: $brand-primary;&#13;
+$dropdown-link-active-color: #ffffff;&#13;
+$widget-editor-fa-bg: $brand-primary;&#13;
+&#13;
+$input-border-tab-focus: $input-border-focus;&#13;
+&#13;
+$fav-star-color: $brand-warning;&#13;
+$fav-star-outline-color: #6b611f;&#13;
+$fav-star-outline: -1px 0 $fav-star-outline-color, 0 1px $fav-star-outline-color, 1px 0$fav-star-outline-color, 0 -1px $fav-star-outline-color;&#13;
+&#13;
+$qa-star-color-on: $brand-warning;&#13;
+$qa-star-color-off: #ffffff;</css_variables>
+        <footer display_value="LegalFooter">64407ec3532332000d620d0323dc3436</footer>
+        <footer_fixed>true</footer_fixed>
+        <header display_value="MyHeader">459af0a7948121107f448479e46a47db</header>
+        <name>Mytheme</name>
+        <navbar_fixed>true</navbar_fixed>
+        <sys_class_name>sp_theme</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-22 06:44:05</sys_created_on>
+        <sys_id>360f382f948121107f448479e46a47e0</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Mytheme</sys_name>
+        <sys_package display_value="ClientPro" source="x_58872_ClientPro">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ClientPro">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sp_theme_360f382f948121107f448479e46a47e0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-22 07:03:42</sys_updated_on>
+    </sp_theme>
+</record_update>

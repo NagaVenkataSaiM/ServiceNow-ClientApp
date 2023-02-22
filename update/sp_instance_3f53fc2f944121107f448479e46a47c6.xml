@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">c753f0ef944121107f448479e46a4739</sp_column>
+        <sp_widget display_value="HTML">8679ef89cb21120000f8d856634c9c4f</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-22 05:51:21</sys_created_on>
+        <sys_id>3f53fc2f944121107f448479e46a47c6</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>Dashboard</sys_name>
+        <sys_package display_value="ClientPro" source="x_58872_ClientPro">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ClientPro">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sp_instance_3f53fc2f944121107f448479e46a47c6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-22 07:16:39</sys_updated_on>
+        <title>Dashboard</title>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"html": {
+		"value": "<p><iframe style=\"overflow: hidden; height: 1000px; width: 100%;\" src=\"https://nowlearning-nlinst00595695-001.lab.service-now.com/$pa_dashboard.do?sysparm_dashboard=07bb6ce7944121107f448479e46a474d&amp;sysparm_tab=5deb202b944121107f448479e46a4710&amp;sysparm_cancelable=true&amp;sysparm_editable=undefined&amp;sysparm_active_panel=false\" width=\"100%\" height=\"100%\" frameborder=\"0\" data-mce-src=\"https://nowlearning-nlinst00595695-001.lab.service-now.com/$pa_dashboard.do?sysparm_dashboard=07bb6ce7944121107f448479e46a474d&amp;sysparm_tab=5deb202b944121107f448479e46a4710&amp;sysparm_cancelable=true&amp;sysparm_editable=undefined&amp;sysparm_active_panel=false\" data-mce-style=\"overflow: hidden; height: 1000px; width: 100%;\"></iframe></p>",
+		"displayValue": "<p><iframe style=\"overflow: hidden; height: 1000px; width: 100%;\" src=\"https://nowlearning-nlinst00595695-001.lab.service-now.com/$pa_dashboard.do?sysparm_dashboard=07bb6ce7944121107f448479e46a474d&amp;sysparm_tab=5deb202b944121107f448479e46a4710&amp;sysparm_cancelable=true&amp;sysparm_editable=undefined&amp;sysparm_active_panel=false\" width=\"100%\" height=\"100%\" frameborder=\"0\"></iframe></p>"
+	}
+}]]></widget_parameters>
+    </sp_instance>
+    <sys_translated_text action="delete_multiple" query="documentkey=3f53fc2f944121107f448479e46a47c6"/>
+</record_update>

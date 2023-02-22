@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_m2m_dashboard_tabs">
+    <pa_m2m_dashboard_tabs action="INSERT_OR_UPDATE">
+        <dashboard display_value="Reports Dashboard">07bb6ce7944121107f448479e46a474d</dashboard>
+        <home>false</home>
+        <homepage/>
+        <order>1</order>
+        <sys_class_name>pa_m2m_dashboard_tabs</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-22 05:18:40</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>5deb202b944121107f448479e46a4713</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>07bb6ce7944121107f448479e46a474d</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="ClientPro" source="x_58872_ClientPro">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ClientPro">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>pa_m2m_dashboard_tabs_5deb202b944121107f448479e46a4713</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-22 05:18:40</sys_updated_on>
+        <tab display_value="Reports Dashboard - New Tab">5deb202b944121107f448479e46a4710</tab>
+    </pa_m2m_dashboard_tabs>
+</record_update>

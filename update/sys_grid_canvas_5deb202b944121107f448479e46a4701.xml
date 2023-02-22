@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_grid_canvas">
+    <sys_grid_canvas action="INSERT_OR_UPDATE">
+        <legacy_page display_value="PA Reports Dashboard - New Tab">cdebece7944121107f448479e46a47ff</legacy_page>
+        <name>PA Reports Dashboard - New Tab</name>
+        <sys_class_name>sys_grid_canvas</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-22 05:18:40</sys_created_on>
+        <sys_id>5deb202b944121107f448479e46a4701</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>PA Reports Dashboard - New Tab</sys_name>
+        <sys_package display_value="ClientPro" source="x_58872_ClientPro">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ClientPro">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_grid_canvas_5deb202b944121107f448479e46a4701</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-22 05:18:40</sys_updated_on>
+    </sys_grid_canvas>
+</record_update>
