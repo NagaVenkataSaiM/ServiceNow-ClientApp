@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_menu">
+    <sp_instance_menu action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column/>
+        <sp_widget/>
+        <sys_class_name>sp_instance_menu</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-22 07:43:16</sys_created_on>
+        <sys_id>20fc412f94c121107f448479e46a47fd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>newmenu</sys_name>
+        <sys_package display_value="ClientPro" source="x_58872_ClientPro">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ClientPro">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sp_instance_menu_20fc412f94c121107f448479e46a47fd</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-22 07:43:16</sys_updated_on>
+        <title>newmenu</title>
+        <url/>
+        <widget_parameters/>
+    </sp_instance_menu>
+    <sys_translated_text action="DELETE" query="documentkey=20fc412f94c121107f448479e46a47fd"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ClientPro">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>bdf68f4397c969109c987a121153af2c</instance_id>
+        <instance_name>nowlearning-nlinst00595695-001</instance_name>
+        <name>sp_instance_menu_20fc412f94c121107f448479e46a47fd</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_menu"><sp_instance_menu action="INSERT_OR_UPDATE"><active>true</active><class_name/><color>default</color><css/><glyph/><id/><order>1</order><roles/><short_description/><size>md</size><sp_column/><sp_widget/><sys_class_name>sp_instance_menu</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-02-22 07:43:16</sys_created_on><sys_id>20fc412f94c121107f448479e46a47fd</sys_id><sys_mod_count>0</sys_mod_count><sys_name>newmenu</sys_name><sys_package display_value="ClientPro" source="x_58872_ClientPro">6ead8e780f603200cd674f8ce1050ed1</sys_package><sys_policy/><sys_scope display_value="ClientPro">6ead8e780f603200cd674f8ce1050ed1</sys_scope><sys_update_name>sp_instance_menu_20fc412f94c121107f448479e46a47fd</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-02-22 07:43:16</sys_updated_on><title>newmenu</title><url/><widget_parameters/></sp_instance_menu><sys_translated_text action="delete_multiple" query="documentkey=20fc412f94c121107f448479e46a47fd"/></record_update>]]></payload>
+        <payload_hash>-653624482</payload_hash>
+        <record_name>newmenu</record_name>
+        <reverted_from/>
+        <source>3a8deb4ff0c121107f442effab1b2887</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-22 07:43:16</sys_created_on>
+        <sys_id>9ffc0deb94c121107f448479e46a47ce</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18678139bad0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-22 07:43:16</sys_updated_on>
+        <type>Instance with Menu</type>
+        <update_guid>d7fc0deb48c121109996de4041f211ce</update_guid>
+        <update_guid_history>d7fc0deb48c121109996de4041f211ce:-653624482</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="newmenu">1b0d8deb94c121107f448479e46a4766</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-22 07:43:32</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance_menu">sp_instance_menu</sys_db_object>
+        <sys_id>517bfaaf3e8e4e109a7241bde4088209</sys_id>
+        <sys_metadata>20fc412f94c121107f448479e46a47fd</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>newmenu</sys_name>
+        <sys_package display_value="ClientPro" source="x_58872_ClientPro">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ClientPro">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sp_instance_menu_20fc412f94c121107f448479e46a47fd</sys_update_name>
+        <sys_update_version display_value="sp_instance_menu_20fc412f94c121107f448479e46a47fd">9ffc0deb94c121107f448479e46a47ce</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-22 07:43:32</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
