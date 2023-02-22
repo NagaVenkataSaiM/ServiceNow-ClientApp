@@ -11,12 +11,12 @@
         <copied_from_name/>
         <description/>
         <internal_name>requestresourceflow</internal_name>
-        <label_cache>[{"name":"cf84d4e2-5e8b-4110-b5fd-b203729961f1.record.u_reference_1.u_string_1","label":"1 - Update Record➛ClientResource Record➛Project➛Project Name","reference":"","reference_display":"Project Name","type":"string","base_type":"string","parent_table_name":"x_58872_ClientPro_x_58872_clientpro_x_58872_clientpro_x_58872_clientpro_employee","column_name":"u_string_1"},{"name":"cf84d4e2-5e8b-4110-b5fd-b203729961f1.record.u_requested_for.u_string_4","label":"1 - Update Record➛ClientResource Record➛Requested by➛Email","reference":"","reference_display":"Email","type":"string","base_type":"string","parent_table_name":"x_58872_ClientPro_x_58872_clientpro_x_58872_clientpro_x_58872_clientpro_data_emp","column_name":"u_string_4"},{"name":"cf84d4e2-5e8b-4110-b5fd-b203729961f1.record.assigned_to.email","label":"1 - Update Record➛ClientResource Record➛Assigned to➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email"},{"name":"cf84d4e2-5e8b-4110-b5fd-b203729961f1.record.u_reference_1.u_reference_4.u_string_4","label":"1 - Update Record➛ClientResource Record➛Project➛Manager➛Email","reference":"","reference_display":"Email","type":"string","base_type":"string","parent_table_name":"x_58872_ClientPro_x_58872_clientpro_x_58872_clientpro_x_58872_clientpro_data_emp","column_name":"u_string_4"},{"name":"cf84d4e2-5e8b-4110-b5fd-b203729961f1.record.u_reference_1","label":"1 - Update Record➛ClientResource Record➛Project","reference":"x_58872_ClientPro_x_58872_clientpro_x_58872_clientpro_x_58872_clientpro_employee","reference_display":"EmployeeProjects","type":"reference","base_type":"reference","parent_table_name":"x_58872_ClientPro_x_58872_clientpro_x_58872_clientpro_x_58872_clientpro_clientpr","column_name":"u_reference_1"},{"name":"19f0c364-3543-485f-8f17-3340a500332e.__dont_treat_as_error__","label":"2 - Send Email➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"19f0c364-3543-485f-8f17-3340a500332e.__action_status__","label":"2 - Send Email➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"19f0c364-3543-485f-8f17-3340a500332e.email","label":"2 - Send Email➛email","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current","label":"Trigger - Record Created➛ClientResource Record","reference":"x_58872_ClientPro_x_58872_clientpro_x_58872_clientpro_x_58872_clientpro_clientpr","reference_display":"ClientResource","type":"reference","base_type":"reference","attributes":{}},{"name":"cf84d4e2-5e8b-4110-b5fd-b203729961f1.__dont_treat_as_error__","label":"1 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"cf84d4e2-5e8b-4110-b5fd-b203729961f1.__action_status__","label":"1 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"cf84d4e2-5e8b-4110-b5fd-b203729961f1.table_name","label":"1 - Update Record➛ClientResource Table","reference":"x_58872_ClientPro_x_58872_clientpro_x_58872_clientpro_x_58872_clientpro_clientpr","reference_display":"ClientResource","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"cf84d4e2-5e8b-4110-b5fd-b203729961f1.record","label":"1 - Update Record➛ClientResource Record","reference":"x_58872_ClientPro_x_58872_clientpro_x_58872_clientpro_x_58872_clientpro_clientpr","reference_display":"ClientResource","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
+        <label_cache>[{"name":"cf84d4e2-5e8b-4110-b5fd-b203729961f1.record.u_reference_1.u_string_1","label":"1 - Update Record➛ClientResource Record➛Project➛Project Name","reference":"","reference_display":"Project Name","type":"string","base_type":"string","parent_table_name":"x_58872_ClientPro_x_58872_clientpro_x_58872_clientpro_x_58872_clientpro_employee","column_name":"u_string_1"},{"name":"cf84d4e2-5e8b-4110-b5fd-b203729961f1.record.u_requested_for.u_string_4","label":"1 - Update Record➛ClientResource Record➛Requested by➛Email","reference":"","reference_display":"Email","type":"string","base_type":"string","parent_table_name":"x_58872_ClientPro_x_58872_clientpro_x_58872_clientpro_x_58872_clientpro_data_emp","column_name":"u_string_4"},{"name":"cf84d4e2-5e8b-4110-b5fd-b203729961f1.record.assigned_to.email","label":"1 - Update Record➛ClientResource Record➛Assigned to➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email"},{"name":"cf84d4e2-5e8b-4110-b5fd-b203729961f1.record.u_reference_1.u_reference_4.u_string_4","label":"1 - Update Record➛ClientResource Record➛Project➛Manager➛Email","reference":"","reference_display":"Email","type":"string","base_type":"string","parent_table_name":"x_58872_ClientPro_x_58872_clientpro_x_58872_clientpro_x_58872_clientpro_data_emp","column_name":"u_string_4"},{"name":"cf84d4e2-5e8b-4110-b5fd-b203729961f1.record.u_reference_1","label":"1 - Update Record➛ClientResource Record➛Project","reference":"x_58872_ClientPro_x_58872_clientpro_x_58872_clientpro_x_58872_clientpro_employee","reference_display":"EmployeeProjects","type":"reference","base_type":"reference","parent_table_name":"x_58872_ClientPro_x_58872_clientpro_x_58872_clientpro_x_58872_clientpro_clientpr","column_name":"u_reference_1"},{"name":"19f0c364-3543-485f-8f17-3340a500332e.__dont_treat_as_error__","label":"2 - Send Email➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"19f0c364-3543-485f-8f17-3340a500332e.__action_status__","label":"2 - Send Email➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"19f0c364-3543-485f-8f17-3340a500332e.email","label":"2 - Send Email➛email","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current","label":"Trigger - Record Created➛ClientResource Record","reference":"x_58872_ClientPro_x_58872_clientpro_x_58872_clientpro_x_58872_clientpro_clientpr","reference_display":"ClientResource","type":"reference","base_type":"reference","attributes":{}},{"name":"cf84d4e2-5e8b-4110-b5fd-b203729961f1.__dont_treat_as_error__","label":"1 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"cf84d4e2-5e8b-4110-b5fd-b203729961f1.__action_status__","label":"1 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"cf84d4e2-5e8b-4110-b5fd-b203729961f1.table_name","label":"1 - Update Record➛ClientResource Table","reference":"x_58872_ClientPro_x_58872_clientpro_x_58872_clientpro_x_58872_clientpro_clientpr","reference_display":"ClientResource","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"cf84d4e2-5e8b-4110-b5fd-b203729961f1.record","label":"1 - Update Record➛ClientResource Record","reference":"x_58872_ClientPro_x_58872_clientpro_x_58872_clientpro_x_58872_clientpro_clientpr","reference_display":"ClientResource","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
         <master_snapshot>7d57c697f04d21107f442effab1b288f</master_snapshot>
         <name>RequestResourceFlow</name>
         <natlang/>
         <outputs/>
-        <remote_trigger_id>8257c697f04d21107f442effab1b28fc</remote_trigger_id>
+        <remote_trigger_id>74491827940121107f448479e46a479f</remote_trigger_id>
         <run_as>system</run_as>
         <run_with_roles/>
         <sc_callable>false</sc_callable>
@@ -29,7 +29,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>4d6402d3f04d21107f442effab1b28a1</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name>RequestResourceFlow</sys_name>
         <sys_overrides/>
         <sys_package display_value="ClientPro" source="x_58872_ClientPro">6ead8e780f603200cd674f8ce1050ed1</sys_package>
@@ -37,7 +37,7 @@
         <sys_scope display_value="ClientPro">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_update_name>sys_hub_flow_4d6402d3f04d21107f442effab1b28a1</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-02-21 17:19:46</sys_updated_on>
+        <sys_updated_on>2023-02-22 03:57:17</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=4d6402d3f04d21107f442effab1b28a1"/>
@@ -57,42 +57,42 @@
         <run_when_user_setting>any</run_when_user_setting>
         <sys_class_name>sys_flow_record_trigger</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-02-21 17:19:45</sys_created_on>
+        <sys_created_on>2023-02-22 03:57:16</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>8257c697f04d21107f442effab1b28fc</sys_id>
+        <sys_id>74491827940121107f448479e46a479f</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_overrides/>
         <sys_scope display_value="ClientPro">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-02-21 17:19:45</sys_updated_on>
+        <sys_updated_on>2023-02-22 03:57:16</sys_updated_on>
         <table>x_58872_ClientPro_x_58872_clientpro_x_58872_clientpro_x_58872_clientpro_clientpr</table>
     </sys_flow_record_trigger>
     <sys_trigger_runner_mapping action="INSERT_OR_UPDATE">
         <active>true</active>
-        <data>{"table":"sys_trigger_runner_mapping","id":"8e57c697f04d21107f442effab1b28fc","name":"trigger_runner","type":"java.util.Collections$UnmodifiableMap"}</data>
+        <data>{"table":"sys_trigger_runner_mapping","id":"30491827940121107f448479e46a47a0","name":"trigger_runner","type":"java.util.Collections$UnmodifiableMap"}</data>
         <identifier>4d6402d3f04d21107f442effab1b28a1</identifier>
         <runner>FDTriggerRunner</runner>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-02-21 17:19:45</sys_created_on>
-        <sys_id>8e57c697f04d21107f442effab1b28fc</sys_id>
+        <sys_created_on>2023-02-22 03:57:16</sys_created_on>
+        <sys_id>30491827940121107f448479e46a47a0</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-02-21 17:19:45</sys_updated_on>
-        <trigger display_value="">8257c697f04d21107f442effab1b28fc</trigger>
+        <sys_updated_on>2023-02-22 03:57:16</sys_updated_on>
+        <trigger display_value="">74491827940121107f448479e46a479f</trigger>
     </sys_trigger_runner_mapping>
     <sys_json_chunk action="INSERT_OR_UPDATE">
         <data>H4sIAAAAAAAAAGXLWwqAIBBA0b3MdytwKxGD5fggGUFHLKK99yAo6Pce7ga5MtqYGgYGBaOeZpdTZQPdTc0TYy2UMYYioPrh0wuJBHbXl8T/jpc1r48mRlqE2JA5u9WxEOwH5v2lw4YAAAA=</data>
-        <document_id>8e57c697f04d21107f442effab1b28fc</document_id>
+        <document_id>30491827940121107f448479e46a47a0</document_id>
         <field>trigger_runner</field>
         <length>144</length>
         <position>0</position>
         <source_table>sys_trigger_runner_mapping</source_table>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-02-21 17:19:45</sys_created_on>
-        <sys_id>4e57c697f04d21107f442effab1b28fd</sys_id>
+        <sys_created_on>2023-02-22 03:57:16</sys_created_on>
+        <sys_id>38491827940121107f448479e46a47a0</sys_id>
     </sys_json_chunk>
-    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=4d6402d3f04d21107f442effab1b28a1^sys_idNOT IN8e57c697f04d21107f442effab1b28fc"/>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=4d6402d3f04d21107f442effab1b28a1^sys_idNOT IN30491827940121107f448479e46a47a0"/>
     <sys_hub_trigger_instance action="delete_multiple" query="flow=4d6402d3f04d21107f442effab1b28a1^sys_idNOT INaf478697f04d21107f442effab1b2842"/>
     <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
         <comment/>
@@ -103,10 +103,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-02-21 17:19:35</sys_created_on>
         <sys_id>af478697f04d21107f442effab1b2842</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-02-21 17:19:46</sys_updated_on>
+        <sys_updated_on>2023-02-22 03:57:16</sys_updated_on>
         <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
@@ -218,14 +218,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-02-21 17:19:35</sys_created_on>
         <sys_id>23478697f04d21107f442effab1b283e</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="ClientPro">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-02-21 17:19:45</sys_updated_on>
+        <sys_updated_on>2023-02-22 03:57:16</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -299,14 +299,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-02-21 17:19:35</sys_created_on>
         <sys_id>e3478697f04d21107f442effab1b2836</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="ClientPro">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-02-21 17:19:45</sys_updated_on>
+        <sys_updated_on>2023-02-22 03:57:16</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -336,10 +336,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-02-21 17:19:35</sys_created_on>
         <sys_id>73478697f04d21107f442effab1b2857</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>16</sys_mod_count>
         <sys_scope display_value="ClientPro">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2023-02-21 17:20:52</sys_updated_on>
+        <sys_updated_on>2023-02-22 04:02:34</sys_updated_on>
         <ui_id>cf84d4e2-5e8b-4110-b5fd-b203729961f1</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=73478697f04d21107f442effab1b2857"/>
@@ -425,10 +425,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-02-21 17:19:36</sys_created_on>
         <sys_id>b7478697f04d21107f442effab1b2879</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>16</sys_mod_count>
         <sys_scope display_value="ClientPro">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2023-02-21 17:20:52</sys_updated_on>
+        <sys_updated_on>2023-02-22 04:02:34</sys_updated_on>
         <ui_id>19f0c364-3543-485f-8f17-3340a500332e</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=b7478697f04d21107f442effab1b2879"/>
@@ -467,12 +467,13 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-02-21 17:19:36</sys_created_on>
         <sys_id>7f478697f04d21107f442effab1b287b</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-02-21 17:19:36</sys_updated_on>
+        <sys_updated_on>2023-02-22 03:57:04</sys_updated_on>
         <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
         <value>&lt;p data-tinymcerootblock=""&gt;Requested by: &lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:a190a8ef-bb8f-4cd8-970c-476115bd6838}}"&gt;&lt;span class="data_pill  accepts_transform_functions" contenteditable="false" data-pillvalue="{{fd_transform:a190a8ef-bb8f-4cd8-970c-476115bd6838}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-for="ah_tooltipTop" data-tip="1 - Update Record &amp;gt; ClientResource Record &amp;gt; Requested by &amp;gt; Email"&gt;&lt;span class="pill-start"&gt;1 - Update Record&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;Email&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_a190a8ef-bb8f-4cd8-970c-476115bd6838" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
 &lt;p data-tinymcerootblock=""&gt;For project:&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:2813dd40-4843-422c-a1dd-93afca8d439f}}"&gt;&lt;span class="data_pill  accepts_transform_functions" contenteditable="false" data-pillvalue="{{fd_transform:2813dd40-4843-422c-a1dd-93afca8d439f}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-for="ah_tooltipTop" data-tip="1 - Update Record &amp;gt; ClientResource Record &amp;gt; Project &amp;gt; Project Name"&gt;&lt;span class="pill-start"&gt;1 - Update Record&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;Project Name&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_2813dd40-4843-422c-a1dd-93afca8d439f" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;Notification From ClientPro&lt;/p&gt;
 &lt;p data-tinymcerootblock=""&gt;&amp;nbsp;&lt;/p&gt;</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
@@ -611,18 +612,18 @@
         <binding_strategy>com.snc.process_flow.engine.binding.OncePerRecord</binding_strategy>
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"4e57c697f04d21107f442effab1b28fe","name":"plan","plan_signature":null}}</plan>
         <plan_id>4d6402d3f04d21107f442effab1b28a1</plan_id>
-        <snapshot>52974e97f04d21107f442effab1b2859</snapshot>
+        <snapshot>927a9c67940121107f448479e46a47c0</snapshot>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-02-21 17:19:45</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>4e57c697f04d21107f442effab1b28fe</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-02-21 17:19:45</sys_updated_on>
-        <trigger display_value="">8257c697f04d21107f442effab1b28fc</trigger>
+        <sys_updated_on>2023-02-22 03:57:16</sys_updated_on>
+        <trigger display_value="">74491827940121107f448479e46a479f</trigger>
     </sys_flow_trigger_plan>
     <sys_flow_subflow_plan action="delete_multiple" query="plan_id=4d6402d3f04d21107f442effab1b28a1"/>
     <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
@@ -636,7 +637,7 @@
         <copied_from_name/>
         <description/>
         <internal_name>requestresourceflow</internal_name>
-        <label_cache>[{"name":"cf84d4e2-5e8b-4110-b5fd-b203729961f1.record.u_reference_1.u_string_1","label":"1 - Update Record➛ClientResource Record➛Project➛Project Name","reference":"","reference_display":"Project Name","type":"string","base_type":"string","parent_table_name":"x_58872_ClientPro_x_58872_clientpro_x_58872_clientpro_x_58872_clientpro_employee","column_name":"u_string_1"},{"name":"cf84d4e2-5e8b-4110-b5fd-b203729961f1.record.u_requested_for.u_string_4","label":"1 - Update Record➛ClientResource Record➛Requested by➛Email","reference":"","reference_display":"Email","type":"string","base_type":"string","parent_table_name":"x_58872_ClientPro_x_58872_clientpro_x_58872_clientpro_x_58872_clientpro_data_emp","column_name":"u_string_4"},{"name":"cf84d4e2-5e8b-4110-b5fd-b203729961f1.record.assigned_to.email","label":"1 - Update Record➛ClientResource Record➛Assigned to➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email"},{"name":"cf84d4e2-5e8b-4110-b5fd-b203729961f1.record.u_reference_1.u_reference_4.u_string_4","label":"1 - Update Record➛ClientResource Record➛Project➛Manager➛Email","reference":"","reference_display":"Email","type":"string","base_type":"string","parent_table_name":"x_58872_ClientPro_x_58872_clientpro_x_58872_clientpro_x_58872_clientpro_data_emp","column_name":"u_string_4"},{"name":"cf84d4e2-5e8b-4110-b5fd-b203729961f1.record.u_reference_1","label":"1 - Update Record➛ClientResource Record➛Project","reference":"x_58872_ClientPro_x_58872_clientpro_x_58872_clientpro_x_58872_clientpro_employee","reference_display":"EmployeeProjects","type":"reference","base_type":"reference","parent_table_name":"x_58872_ClientPro_x_58872_clientpro_x_58872_clientpro_x_58872_clientpro_clientpr","column_name":"u_reference_1"},{"name":"19f0c364-3543-485f-8f17-3340a500332e.__dont_treat_as_error__","label":"2 - Send Email➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"19f0c364-3543-485f-8f17-3340a500332e.__action_status__","label":"2 - Send Email➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"19f0c364-3543-485f-8f17-3340a500332e.email","label":"2 - Send Email➛email","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current","label":"Trigger - Record Created➛ClientResource Record","reference":"x_58872_ClientPro_x_58872_clientpro_x_58872_clientpro_x_58872_clientpro_clientpr","reference_display":"ClientResource","type":"reference","base_type":"reference","attributes":{}},{"name":"cf84d4e2-5e8b-4110-b5fd-b203729961f1.__dont_treat_as_error__","label":"1 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"cf84d4e2-5e8b-4110-b5fd-b203729961f1.__action_status__","label":"1 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"cf84d4e2-5e8b-4110-b5fd-b203729961f1.table_name","label":"1 - Update Record➛ClientResource Table","reference":"x_58872_ClientPro_x_58872_clientpro_x_58872_clientpro_x_58872_clientpro_clientpr","reference_display":"ClientResource","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"cf84d4e2-5e8b-4110-b5fd-b203729961f1.record","label":"1 - Update Record➛ClientResource Record","reference":"x_58872_ClientPro_x_58872_clientpro_x_58872_clientpro_x_58872_clientpro_clientpr","reference_display":"ClientResource","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
+        <label_cache>[{"name":"cf84d4e2-5e8b-4110-b5fd-b203729961f1.record.u_reference_1.u_string_1","label":"1 - Update Record➛ClientResource Record➛Project➛Project Name","reference":"","reference_display":"Project Name","type":"string","base_type":"string","parent_table_name":"x_58872_ClientPro_x_58872_clientpro_x_58872_clientpro_x_58872_clientpro_employee","column_name":"u_string_1"},{"name":"cf84d4e2-5e8b-4110-b5fd-b203729961f1.record.u_requested_for.u_string_4","label":"1 - Update Record➛ClientResource Record➛Requested by➛Email","reference":"","reference_display":"Email","type":"string","base_type":"string","parent_table_name":"x_58872_ClientPro_x_58872_clientpro_x_58872_clientpro_x_58872_clientpro_data_emp","column_name":"u_string_4"},{"name":"cf84d4e2-5e8b-4110-b5fd-b203729961f1.record.assigned_to.email","label":"1 - Update Record➛ClientResource Record➛Assigned to➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email"},{"name":"cf84d4e2-5e8b-4110-b5fd-b203729961f1.record.u_reference_1.u_reference_4.u_string_4","label":"1 - Update Record➛ClientResource Record➛Project➛Manager➛Email","reference":"","reference_display":"Email","type":"string","base_type":"string","parent_table_name":"x_58872_ClientPro_x_58872_clientpro_x_58872_clientpro_x_58872_clientpro_data_emp","column_name":"u_string_4"},{"name":"cf84d4e2-5e8b-4110-b5fd-b203729961f1.record.u_reference_1","label":"1 - Update Record➛ClientResource Record➛Project","reference":"x_58872_ClientPro_x_58872_clientpro_x_58872_clientpro_x_58872_clientpro_employee","reference_display":"EmployeeProjects","type":"reference","base_type":"reference","parent_table_name":"x_58872_ClientPro_x_58872_clientpro_x_58872_clientpro_x_58872_clientpro_clientpr","column_name":"u_reference_1"},{"name":"19f0c364-3543-485f-8f17-3340a500332e.__dont_treat_as_error__","label":"2 - Send Email➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"19f0c364-3543-485f-8f17-3340a500332e.__action_status__","label":"2 - Send Email➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"19f0c364-3543-485f-8f17-3340a500332e.email","label":"2 - Send Email➛email","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current","label":"Trigger - Record Created➛ClientResource Record","reference":"x_58872_ClientPro_x_58872_clientpro_x_58872_clientpro_x_58872_clientpro_clientpr","reference_display":"ClientResource","type":"reference","base_type":"reference","attributes":{}},{"name":"cf84d4e2-5e8b-4110-b5fd-b203729961f1.__dont_treat_as_error__","label":"1 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"cf84d4e2-5e8b-4110-b5fd-b203729961f1.__action_status__","label":"1 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"cf84d4e2-5e8b-4110-b5fd-b203729961f1.table_name","label":"1 - Update Record➛ClientResource Table","reference":"x_58872_ClientPro_x_58872_clientpro_x_58872_clientpro_x_58872_clientpro_clientpr","reference_display":"ClientResource","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"cf84d4e2-5e8b-4110-b5fd-b203729961f1.record","label":"1 - Update Record➛ClientResource Record","reference":"x_58872_ClientPro_x_58872_clientpro_x_58872_clientpro_x_58872_clientpro_clientpr","reference_display":"ClientResource","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
         <master>true</master>
         <name>RequestResourceFlow</name>
         <natlang/>
@@ -653,7 +654,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>7d57c697f04d21107f442effab1b288f</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -661,7 +662,7 @@
         <sys_scope display_value="ClientPro">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-02-21 17:19:44</sys_updated_on>
+        <sys_updated_on>2023-02-22 03:57:15</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow_snapshot>
     <sys_translated_text action="delete_multiple" query="documentkey=7d57c697f04d21107f442effab1b288f"/>
@@ -676,10 +677,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-02-21 17:19:45</sys_created_on>
         <sys_id>4657c697f04d21107f442effab1b28dc</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-02-21 17:19:45</sys_updated_on>
+        <sys_updated_on>2023-02-22 03:57:16</sys_updated_on>
         <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
@@ -733,7 +734,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -791,14 +792,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-02-21 17:19:45</sys_created_on>
         <sys_id>0e57c697f04d21107f442effab1b28bf</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="ClientPro">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-02-21 17:19:45</sys_updated_on>
+        <sys_updated_on>2023-02-22 03:57:15</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -814,7 +815,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id,uiTypeLabel=Document ID</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -872,14 +873,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-02-21 17:19:44</sys_created_on>
         <sys_id>7957c697f04d21107f442effab1b2892</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="ClientPro">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-02-21 17:19:44</sys_updated_on>
+        <sys_updated_on>2023-02-22 03:57:15</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -909,10 +910,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-02-21 17:19:45</sys_created_on>
         <sys_id>4e57c697f04d21107f442effab1b28cf</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_scope display_value="ClientPro">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-02-21 17:19:45</sys_updated_on>
+        <sys_updated_on>2023-02-22 03:57:15</sys_updated_on>
         <ui_id>cf84d4e2-5e8b-4110-b5fd-b203729961f1</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=4e57c697f04d21107f442effab1b28cf"/>
@@ -998,10 +999,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-02-21 17:19:45</sys_created_on>
         <sys_id>ca57c697f04d21107f442effab1b28d9</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_scope display_value="ClientPro">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-02-21 17:19:45</sys_updated_on>
+        <sys_updated_on>2023-02-22 03:57:15</sys_updated_on>
         <ui_id>19f0c364-3543-485f-8f17-3340a500332e</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=ca57c697f04d21107f442effab1b28d9"/>
@@ -1040,12 +1041,13 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-02-21 17:19:45</sys_created_on>
         <sys_id>4a57c697f04d21107f442effab1b28db</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-02-21 17:19:45</sys_updated_on>
+        <sys_updated_on>2023-02-22 03:57:15</sys_updated_on>
         <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
         <value>&lt;p data-tinymcerootblock=""&gt;Requested by: &lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:a190a8ef-bb8f-4cd8-970c-476115bd6838}}"&gt;&lt;span class="data_pill  accepts_transform_functions" contenteditable="false" data-pillvalue="{{fd_transform:a190a8ef-bb8f-4cd8-970c-476115bd6838}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-for="ah_tooltipTop" data-tip="1 - Update Record &amp;gt; ClientResource Record &amp;gt; Requested by &amp;gt; Email"&gt;&lt;span class="pill-start"&gt;1 - Update Record&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;Email&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_a190a8ef-bb8f-4cd8-970c-476115bd6838" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
 &lt;p data-tinymcerootblock=""&gt;For project:&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:2813dd40-4843-422c-a1dd-93afca8d439f}}"&gt;&lt;span class="data_pill  accepts_transform_functions" contenteditable="false" data-pillvalue="{{fd_transform:2813dd40-4843-422c-a1dd-93afca8d439f}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-for="ah_tooltipTop" data-tip="1 - Update Record &amp;gt; ClientResource Record &amp;gt; Project &amp;gt; Project Name"&gt;&lt;span class="pill-start"&gt;1 - Update Record&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;Project Name&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_2813dd40-4843-422c-a1dd-93afca8d439f" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;Notification From ClientPro&lt;/p&gt;
 &lt;p data-tinymcerootblock=""&gt;&amp;nbsp;&lt;/p&gt;</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
